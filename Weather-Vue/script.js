@@ -1,6 +1,6 @@
 const cityInput = document.querySelector('.city-input')
 const searchBtn = document.querySelector('.search-btn')
-const apiKey = 'c472d8e20c25ae9b6e296334539fc8b5'
+const apiKey = ''  //put your own api key
 const weatherInfoSection = document.querySelector('.weather-info')
 const notFoundSection = document.querySelector('.not-found')
 const searchCitySection = document.querySelector('.search-city')
@@ -123,4 +123,5 @@ function showDisplaySection(section) {
     .forEach(section => section.style.display = 'none')
   section.style.display = 'flex'
 }
+
 
